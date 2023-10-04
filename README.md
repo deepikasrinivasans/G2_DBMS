@@ -26,7 +26,8 @@ RENAME: This is used to rename an object existing in the database.
  create table student(rollno int,name char(20),age int,address varchar(20),phoneno int);
 ```
 ### OUTPUT:
-![Screenshot 2023-09-28 123821](https://github.com/abinayasangeetha/G2_DBMS/assets/119393675/0ef4f197-c7f6-457f-9c14-99ff64c8e0ea)
+
+![out01](https://github.com/deepikasrinivasans/G2_DBMS/assets/119393935/022e62e2-4a56-4a44-b505-1a37123ee806)
 
 ### 2) Change the above student table by adding another attribute department
 
@@ -35,9 +36,7 @@ RENAME: This is used to rename an object existing in the database.
 alter table student add department char(30);
 ```
 ### OUTPUT:
-
-![Screenshot 2023-09-28 123839](https://github.com/abinayasangeetha/G2_DBMS/assets/119393675/9da807a2-282a-48db-9eac-c2b8998d3403)
-
+![out02](https://github.com/deepikasrinivasans/G2_DBMS/assets/119393935/e6de9a84-8899-437a-b4be-8b278a127d9a)
 ### 3) Drop the student table
  
 ### SQL QUERY: 
@@ -46,8 +45,7 @@ drop table student;
 ```
 
 ### OUTPUT:
-![Screenshot 2023-09-28 124822](https://github.com/abinayasangeetha/G2_DBMS/assets/119393675/2d2245a9-b680-4a82-867f-3b37164ddd6f)
-
+![out03](https://github.com/deepikasrinivasans/G2_DBMS/assets/119393935/29293724-c10b-408e-a9d5-7644fde3c403)
 
 ### 4) Delete the student table using truncate keyword
 
@@ -55,20 +53,15 @@ drop table student;
 ```
 truncate table student;
 ```
-
 ### OUTPUT:
-![Screenshot 2023-09-28 124838](https://github.com/abinayasangeetha/G2_DBMS/assets/119393675/490d77b7-d304-47af-b312-72c8967d392a)
-
-
-
+![out04](https://github.com/deepikasrinivasans/G2_DBMS/assets/119393935/b77f7953-76e1-40b5-8fe3-969a8045ddc1)
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
 ```
 alter table student rename to mystudent;
 ```
-
 ### OUTPUT:
-![OP DBMS1](https://github.com/abinayasangeetha/G2_DBMS/assets/119393675/8e2a54e9-316c-4ad4-955a-db9ba7aec8c0)
+![out06](https://github.com/deepikasrinivasans/G2_DBMS/assets/119393935/c06008fb-ed03-4009-867f-0c1c9305eff9)
 ### RESULT:
 To create a student database and execute DDL queries using SQL is executed successfully.
